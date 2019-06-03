@@ -1,5 +1,5 @@
-INSERT INTO burgers (name, eaten) VALUES ('Bacon Cheeseburger', false);
-INSERT INTO burgers (name, eaten) VALUES ('Hamburger', false);
-INSERT INTO burgers (name, eaten) VALUES ('Cheeseburger', false);
-INSERT INTO burgers (name, eaten) VALUES ('Chicken Burger', true);
-INSERT INTO burgers (name, eaten) VALUES ('Impossible Burger', false);
+INSERT INTO burgers (name, image, eaten) VALUES ('Bacon Cheeseburger', 'https://d1doqjmisr497k.cloudfront.net//-/media/franksus18/recipe-images/franks_redhot_bacon_cheeseburger_300x300.ashx', false);
+INSERT INTO burgers (name, image, eaten) VALUES ('Hamburger', 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/5/4/2/FNM_060112-Grilled-Burger-Recipe_s4x3.jpg.rend.hgtvcom.406.305.suffix/1371606262739.jpeg', false);
+INSERT INTO burgers (name, image, eaten) VALUES ('Cheeseburger', 'https://www.foxvalleyfoodie.com/wp-content/uploads/2018/04/grilled-burger-recipe.jpg', false);
+INSERT INTO burgers (name, image, eaten) VALUES ('Chicken Burger', 'https://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/carolina-chicken-burgers-ancho-slaw-sl.jpg?itok=GUhe0VCF', true);
+INSERT INTO burgers (name, image, eaten) VALUES ('Impossible Burger', 'https://cdn.vox-cdn.com/thumbor/D-a35HFVDgINbfyriXI4z24_7nY=/0x0:6000x4000/1200x800/filters:focal(2520x1520:3480x2480)/cdn.vox-cdn.com/uploads/chorus_image/image/63762076/Grindhouse_Killer_Burgers___Impossible_Burger_3___Photo_by_Tori_Allen_PR.0.jpg', false);

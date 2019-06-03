@@ -27,6 +27,7 @@ $(function() {
 
     var newBurg = {
       name: $("#burg").val().trim(),
+      img: $("#burg-img").val().trim(),
       eaten: $("[name=eaten]:checked").val().trim()
     };
 
