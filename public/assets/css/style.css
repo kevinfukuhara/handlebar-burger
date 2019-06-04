@@ -17,3 +17,17 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+#title-contain {
+  /* text-align: center; */
+  color: whitesmoke;
+
+  display: flex;
+align-items: center;
+
+  background: url('../images/Burger-2.png') no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 78%;
+}
