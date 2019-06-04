@@ -1,13 +1,24 @@
-<li>
-	{{name}}
+{{!-- <li> --}}
+	{{!-- {{name}} --}}
 
-	<button class="change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
+	{{!-- <button class="change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
 		{{#if eaten}}EATEN!{{else}}Not eaten...{{/if}}
 	</button>
 
-	<img src="{{image}}" alt="Image of burger {{id}}">
+	<img src="{{image}}" alt="Image of burger {{id}}"> --}}
 
 	{{!-- <img class="delete-burger" data-id="{{id}}">
 		DELETE
 	</button> --}}
-</li>
+
+	<div class="card" style="width: 18rem;">
+		<img class="card-img-top" src="{{image}}" alt="Image of burger {{id}}">
+		<div class="card-body">
+			<h5 class="card-title">{{name}}</h5>
+			{{!-- <a href="#" class="btn btn-primary">Go somewhere</a> --}}
+			<button class="change-eaten btn btn-primary" data-id="{{id}}" data-neweaten="{{eaten}}">
+				{{#if eaten}}EATEN!{{else}}Not eaten...{{/if}}
+			</button>
+		</div>
+	</div>
+{{!-- </li> --}}
